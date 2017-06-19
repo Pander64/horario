@@ -1,0 +1,24 @@
+<?php 
+   /**
+   * 
+   */
+
+   class persona
+   {
+
+   	public $nombre;
+   	public $estatura;
+   	
+   	/**function __construct(argument)
+   	{
+   		# code...
+   	}
+   	**/
+
+   	public function mostrar()
+   	 {
+   		echo $this->nombre .'mide'. $this->estatura .'cm'.;
+   	 }
+   	 
+   }
+ ?>
